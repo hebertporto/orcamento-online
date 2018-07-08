@@ -1,10 +1,10 @@
 // @flow
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 type StateType = {
   requests: Array<ChatRequest>,
   selectedRequest: ?ChatRequest,
-};
+}
 
 class App extends Component<{}, StateType> {
   render() {
@@ -17,8 +17,8 @@ class App extends Component<{}, StateType> {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
