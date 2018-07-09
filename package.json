@@ -18,7 +18,7 @@
     "flow": "flow",
     "prettier": "prettier --write '**/src/**/*.js?(x)'",
     "flow:coverage": "flow coverage",
-    "precommit": "lint-staged"
+    "precommit": "yarn run lint-staged"
   },
   "devDependencies": {
     "flow-bin": "0.67.1",
