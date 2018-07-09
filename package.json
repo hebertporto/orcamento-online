@@ -29,11 +29,9 @@
     "prettierrc": "^0.0.0-5"
   },
   "lint-staged": {
-    "linters": {
       "*.{js,jsx}": [
         "prettier --write ",
         "git add"
       ]
-    }
   }
 }
