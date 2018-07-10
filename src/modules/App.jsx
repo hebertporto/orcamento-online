@@ -1,12 +1,7 @@
 // @flow
 import React, { Component } from "react"
 
-type StateType = {
-  requests: Array<ChatRequest>,
-  selectedRequest: ?ChatRequest,
-}
-
-class App extends Component<{}, StateType> {
+class App extends Component<{}> {
   render() {
     return (
       <div className="App">
